@@ -1,0 +1,78 @@
+.service-paragraph {
+     font-family: 'Montserrat', sans-serif;
+}
+
+.title-font {
+     font-family: 'Source Code Pro', monospace;
+}
+
+.service-container {
+     background-size: cover;
+     background-image: url("../../../assets/image/services/background.jpg");
+     padding: 50px;
+
+     height: 1024px;
+     z-index: 1;
+
+
+}
+
+
+
+
+/* ============ FORM =========== */
+
+.contact-form {
+     display: flex;
+     flex-direction: column;
+     gap: 1.2rem;
+}
+
+.contact-input {
+     color: black;
+     width: 100%;
+     padding: 1.5rem;
+     border-radius: 0.5rem;
+     background: transparent;
+     border: 2px solid tan;
+     resize: none;
+}
+
+.textarea {
+     color: black;
+     width: 100%;
+     padding: 1.5rem;
+     border-radius: 0.5rem;
+     background: transparent;
+     border: 2px solid tan;
+     resize: none;
+}
+
+/* =================button========== */
+.contact-btn {
+     background-color: #0093E9;
+     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.contact-btn:hover {
+     background-color: #FBAB7E;
+     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+/* ===========MEDIA QUERIES (MEDIUM DEVICES) ==============*/
+
+@media screen and (max-width: 1024px) {
+     .container.contact-container {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+     }
+}
+
+/* ===========MEDIA QUERIES (SMALL DEVICES) ==============*/
+
+@media screen and (max-width: 600px) {
+     .container.contact-container {
+          width: 70%;
+     }
+}
